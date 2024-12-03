@@ -10,7 +10,11 @@
         { "sku": "17", "size": 7 },
         { "sku": "18", "size": 8 }
       ],
+<<<<<<< HEAD
       "description": "This rugged board will get you up the mountain safely."
+=======
+      "description": "This rugged boot will get you up the mountain safely."
+>>>>>>> 466bc864bbfe5958f3147d269057074374183f87
     },
     {
       "id": 2,

@@ -17,12 +17,15 @@ export default function useFetch(url) {
         } else {
           throw response;
         }
+<<<<<<< HEAD
         if (error) {
           return <div>Error loading data: {error.message}</div>;
         }
         if (loading) {
           return <div>Loading...</div>;
         }
+=======
+>>>>>>> 466bc864bbfe5958f3147d269057074374183f87
       } catch (e) {
         setError(e);
       } finally {

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {Container, Row, Col} from 'react-bootstrap';
@@ -53,4 +54,18 @@ export default function Footer() {
             </Container>
         </footer>
     );
+=======
+import React from "react";
+
+export default function Footer() {
+  return (
+    <footer>
+      <p>
+        This site is created for demonstrative purposes only and does not offer
+        any real products or services.
+      </p>
+      <p>&copy; BBW 2020</p>
+    </footer>
+  );
+>>>>>>> 466bc864bbfe5958f3147d269057074374183f87
 }

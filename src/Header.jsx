@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import icon from "./logo.svg";
@@ -19,4 +20,37 @@ export default function Header() {
             </Navbar.Collapse>
         </Navbar>
     );
+=======
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
+
+const activeStyle = {
+  color: "purple",
+};
+
+export default function Header() {
+  return (
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">
+              <img alt="Just skate." src="/images/logo.png" />
+            </Link>
+          </li>
+          <li>
+            <NavLink activeStyle={activeStyle} to="/boards">
+              Boards
+            </NavLink>
+          </li>
+          <li>
+            <NavLink activeStyle={activeStyle} to="/cart">
+              Cart
+            </NavLink>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
+>>>>>>> 466bc864bbfe5958f3147d269057074374183f87
 }
