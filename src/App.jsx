@@ -6,19 +6,21 @@ import Drinks from "./pages/Drinks.jsx";
 import AboutUs from "./pages/AboutUs.jsx";
 import Contact from "./pages/Contact.jsx";
 import NavbarComponent from "./Components/NavbarComponent.jsx";
-import FooterComponent from "./Components/FooterComponent.jsx";
 import NotFound from "./pages/NotFound.jsx";
+import Blog from "./pages/Blog.jsx";
 
 
 function App() {
 
     return (
         <Router>
+            <NavbarComponent/>
             <div>
                 <Routes>
                     <Route path="/" element={<Home />}/>
                     <Route path="/drinks" element={<Drinks/>}/>
                     <Route path="/about-us" element={<AboutUs/>}/>
+                    <Route path="/blog" element={<Blog/>}/>
                     <Route path="/contact" element={<Contact/>}/>
                     <Route path="/*" element={<NotFound/>} />
                 </Routes>
