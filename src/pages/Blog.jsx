@@ -1,19 +1,33 @@
-export default function Blog() {
-    return(
-        <div>
-            <div className="parallax"></div>
-            <div className="content-section">
-                <h1>Welcome to Limeli!</h1>
-                <p>Your ultimate destination for refreshing drinks.</p>
-            </div>
-            <div className="parallax"></div>
-            <div className="content-section">
-                <h1>Explore Our Drinks</h1>
-                <p>Check out our range of handcrafted beverages.</p>
-            </div>
-            <div className="footer">
-                <p>&copy; 2024 Limeli - All Rights Reserved</p>
-            </div>
+import React from 'react';
+import Carousel from '../Components/Carousel.jsx';
+import ImageGallery from '../Components/ImageGallery.jsx';
+
+const Blog = () => {
+    return (
+        <div className="blog-page">
+                <section className="video-section">
+                    <Carousel />
+                </section>
+
+                <section className="news-section">
+                    <h2>Latest News</h2>
+                    <div className="news-content">
+                        <div className="news-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel.</p>
+                            <p>Suspendisse potenti. Proin in neque at dolor cursus vehicula sit amet a sapien.</p>
+                        </div>
+                        <div className="news-carousel">
+                            <Carousel />
+                        </div>
+                    </div>
+                </section>
+
+                <section className="gallery-section">
+                    <h2>Bilder Galerie</h2>
+                    <ImageGallery />
+                </section>
         </div>
-    )
-}
+    );
+};
+
+export default Blog;

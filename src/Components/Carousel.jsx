@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import './Carousel.css';
+import Image1 from '../assets/limeli-high-resolution-logo.png';
+import Image2 from '../assets/limeli-pictures/Test/Picture2.png';
+import Image3 from '../assets/limeli-high-resolution-logo.png';
 
 const images = [
-    '/images/drink1.jpg',
-    '/images/drink2.jpg',
-    '/images/drink3.jpg'
+    Image1,
+    Image2,
+    Image3
 ];
 
 const Carousel = () => {
