@@ -78,3 +78,39 @@
 .Content-Centered title{
 
 }
+
+/* Carousel */
+.carousel-container {
+  position: relative;
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.carousel-items {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  flex: 0 0 25%;
+  opacity: 0.5;
+  transform: scale(0.8);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.carousel-item.spotlight {
+  flex: 0 0 50%;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.carousel-item.left,
+.carousel-item.right {
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+
+.carousel-item.hidden {
+  display: none;
+}

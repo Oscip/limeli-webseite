@@ -37,13 +37,13 @@ function FooterComponent() {
                                 Home
                             </Nav.Link>
                             <Nav.Link href="/drinks" className="text-white mx-2">
-                                Getränke
+                                Drinks
                             </Nav.Link>
                             <Nav.Link href="/about-us" className="text-white mx-2">
-                                Über Uns
+                                About Us
                             </Nav.Link>
                             <Nav.Link href="/contact" className="text-white mx-2">
-                                Kontakt
+                                Contact
                             </Nav.Link>
                         </Nav>
                     </Col>
