@@ -8,17 +8,11 @@ function FooterComponent() {
                     {/* Centered Links */}
                     <Col xs="auto">
                         <Nav className="justify-content-center">
-                            <Nav.Link href="#" className="text-white mx-2">
-                                Datenschutzerklärung
+                            <Nav.Link href="/legal-notice" className="text-white mx-2">
+                                legal notice
                             </Nav.Link>
-                            <Nav.Link href="#" className="text-white mx-2">
-                                Impressum
-                            </Nav.Link>
-                            <Nav.Link href="#" className="text-white mx-2">
-                                Rückgaberecht
-                            </Nav.Link>
-                            <Nav.Link href="#" className="text-white mx-2">
-                                AGB
+                            <Nav.Link href="/terms-&-condition" className="text-white mx-2">
+                                terms and conditions
                             </Nav.Link>
                         </Nav>
                     </Col>
