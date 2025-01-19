@@ -1,8 +1,8 @@
 export default function Terms_Condition() {
     return (
         <div className="legal-div">
-            <section style={{backgroundColor: '#f1f8e9', padding: '20px', borderRadius: '8px'}}>
-                <h1 style={{color: '#2e7d32'}}>Terms and Conditions</h1>
+            <section className="legal-section">
+                <h1 className="text-green">Terms and Conditions</h1>
                 <h2>1. General Information:</h2>
                 <p>
                     Welcome to Limeli, the website for our natural fizzy honey drinks. By using our website,
@@ -36,7 +36,7 @@ export default function Terms_Condition() {
                 <h2>Contact Information:</h2>
                 <p>
                     If you have any questions or concerns, please contact us at:
-                    <a href="mailto:contact@limeli.com" style={{color: '#2e7d32'}}> contact@limeli.com</a>
+                    <a href="mailto:contact@limeli.com" className="text-green"> contact@limeli.com</a>
                 </p>
             </section>
         </div>

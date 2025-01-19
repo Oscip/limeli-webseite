@@ -24,10 +24,9 @@ function Form() {
     };
 
     return (
-        <div className="container mt-5">
+        <div className="container mt-5 mb-5">
             <form className="p-4 bg-light rounded shadow-sm">
                 <h1 className="text-center mb-4">Contact</h1>
-
                 <fieldset>
                     <legend className="mb-3">General Information</legend>
 

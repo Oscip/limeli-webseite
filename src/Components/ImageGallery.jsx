@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import Image1 from '../assets/limeli-pictures/Test/Picture2.png';
-import Image2 from '../assets/limeli-pictures/Test/Picture2.png';
-import Image3 from '../assets/limeli-pictures/Test/Picture2.png';
-import Image4 from '../assets/limeli-pictures/Test/Picture2.png';
-import Image5 from '../assets/limeli-pictures/Test/Picture2.png';
+import Image1 from '../assets/limeli-pictures/Drinks/PNG/LimeliOriginal.png';
+import Image2 from '../assets/limeli-pictures/Drinks/PNG/LimeliMint.png';
+import Image3 from '../assets/limeli-pictures/Drinks/PNG/LimeliCinnamon.png';
+import Image4 from '../assets/limeli-pictures/Drinks/LimeliMintWithBG.png';
 
 
 
@@ -11,8 +10,7 @@ const images = [
     Image1,
     Image2,
     Image3,
-    Image4,
-    Image5
+    Image4
 ];
 
 const ImageGallery = () => {
@@ -34,6 +32,8 @@ const ImageGallery = () => {
                         key={index}
                         src={image}
                         alt={`Gallery Image ${index + 1}`}
+                        height="200"
+                        width="200"
                         className="gallery-image"
                         onClick={() => openImage(image)}
                     />

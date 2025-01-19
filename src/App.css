@@ -244,4 +244,24 @@
   color: #333;
 }
 
+.legal-section {
+  backgroundColor: #e8f5e9;
+  padding: 20px;
+  borderRadius: 8px;
+  marginBottom: 20px;
+}
+
+.text-green {
+  color: #2e7d32;
+}
+
+.masked-image {
+  width: 200px;
+  height: auto;
+  -webkit-mask-image: url('C:/Users/oscar/Projects/limelidrinkscompany/src/assets/limeli-pictures/Drinks/PNG/LimeliCinnamon.png');  /* Use the PNG image itself as a mask */
+  mask-image: url('C:/Users/oscar/Projects/limelidrinkscompany/src/assets/limeli-pictures/Drinks/PNG/LimeliCinnamon.png');          /* Apply the mask for non-transparent parts */
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.3));  /* Apply shadow only to visible parts */
+}
 
