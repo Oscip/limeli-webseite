@@ -1,4 +1,3 @@
-import React from 'react';
 import Carousel from '../Components/Carousel.jsx';
 import ImageGallery from '../Components/ImageGallery.jsx';
 

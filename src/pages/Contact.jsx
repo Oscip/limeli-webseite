@@ -1,8 +1,8 @@
-import React from "react";
+import { useState} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Form() {
-    const [formData, setFormData] = React.useState({
+    const [formData, setFormData] = useState({
         firstName: "",
         lastName: "",
         message: "",

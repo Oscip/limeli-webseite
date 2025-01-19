@@ -1,4 +1,3 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react"; // Import Swiper components
 import { Navigation, Pagination, EffectCoverflow } from "swiper/modules"; // Import Swiper modules
 import "swiper/css"; // Import Swiper styles

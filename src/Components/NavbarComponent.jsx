@@ -1,5 +1,6 @@
 import {Navbar, Nav} from "react-bootstrap";
 import logo from "../assets/limeli-pictures/png/logo-no-background.png";
+import cartIcon from "../assets/Icons/icon_cart.png";
 import {Link} from "react-router-dom";
 
 function NavbarComponent() {
@@ -17,6 +18,9 @@ function NavbarComponent() {
                     <Nav.Link as={Link} to="/contact" className="navbar-link">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
+            <Navbar.Brand as={Link} to={"/cart"} id="navbar-brand-design" >
+                <img src={cartIcon} alt="cart Icon" height="50" width="50"/>
+            </Navbar.Brand>
         </Navbar>
     );
 }

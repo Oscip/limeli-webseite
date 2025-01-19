@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Image1 from '../assets/limeli-pictures/Drinks/PNG/LimeliOriginal.png';
 import Image2 from '../assets/limeli-pictures/Drinks/PNG/LimeliMint.png';
 import Image3 from '../assets/limeli-pictures/Drinks/PNG/LimeliCinnamon.png';
