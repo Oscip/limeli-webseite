@@ -1,45 +1,79 @@
 import { Container, Row, Col, Nav } from "react-bootstrap";
+import { FaTiktok, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 function FooterComponent() {
     return (
-        <footer className="bg-dark text-white py-4">
+        <footer className="bg-dark text-white py-5">
             <Container>
-                <Row className="justify-content-center mb-3">
-                    {/* Centered Links */}
+                {/* Navigation Links */}
+                <Row className="justify-content-center mb-4">
                     <Col xs="auto">
                         <Nav className="justify-content-center">
-                            <Nav.Link href="/legal-notice" className="text-white mx-2">
-                                legal notice
+                            <Nav.Link href="/" className="text-white mx-3 footer-link">
+                                Home
                             </Nav.Link>
-                            <Nav.Link href="/terms-&-condition" className="text-white mx-2">
-                                terms and conditions
+                            <Nav.Link href="/drinks" className="text-white mx-3 footer-link">
+                                Drinks
+                            </Nav.Link>
+                            <Nav.Link href="/about-us" className="text-white mx-3 footer-link">
+                                About Us
+                            </Nav.Link>
+                            <Nav.Link href="/contact" className="text-white mx-3 footer-link">
+                                Contact
+                            </Nav.Link>
+                            <Nav.Link href="/cart" className="text-white mx-3 footer-link">
+                                Cart
                             </Nav.Link>
                         </Nav>
                     </Col>
                 </Row>
+
+                {/* Legal Links */}
+                <Row className="justify-content-center mb-4">
+                    <Col xs="auto">
+                        <Nav className="justify-content-center">
+                            <Nav.Link href="/legal-notice" className="text-white mx-3 footer-link">
+                                Legal Notice
+                            </Nav.Link>
+                            <Nav.Link href="/terms-and-conditions" className="text-white mx-3 footer-link">
+                                Terms and Conditions
+                            </Nav.Link>
+                            <Nav.Link href="/terms-of-use" className="text-white mx-3 footer-link">
+                                Terms of Use
+                            </Nav.Link>
+                            <Nav.Link href="/privacy-policy" className="text-white mx-3 footer-link">
+                                Privacy Policy
+                            </Nav.Link>
+                        </Nav>
+                    </Col>
+                </Row>
+
+                {/* Social Media Links */}
+                <Row className="justify-content-center mb-4">
+                    <Col xs="auto">
+                        <Nav className="justify-content-center">
+                            <Nav.Link href="#" className="text-white mx-3 footer-social-icon">
+                                <FaInstagram size={20} />
+                            </Nav.Link>
+                            <Nav.Link href="#" className="text-white mx-3 footer-social-icon">
+                                <FaTiktok size={20} />
+                            </Nav.Link>
+                            <Nav.Link href="#" className="text-white mx-3 footer-social-icon">
+                                <FaLinkedin size={20} />
+                            </Nav.Link>
+                            <Nav.Link href="#" className="text-white mx-3 footer-social-icon">
+                                <FaTwitter size={20} />
+                            </Nav.Link>
+                        </Nav>
+                    </Col>
+                </Row>
+
                 {/* Copyright */}
                 <Row className="justify-content-center">
                     <Col xs="auto" className="text-center">
-                        <p className="mb-0">&copy; {new Date().getFullYear()} Limeli</p>
-                    </Col>
-                </Row>
-                {/* Navigation Links */}
-                <Row className="justify-content-center mt-3">
-                    <Col xs="auto">
-                        <Nav className="justify-content-center">
-                            <Nav.Link href="/" className="text-white mx-2">
-                                Home
-                            </Nav.Link>
-                            <Nav.Link href="/drinks" className="text-white mx-2">
-                                Drinks
-                            </Nav.Link>
-                            <Nav.Link href="/about-us" className="text-white mx-2">
-                                About Us
-                            </Nav.Link>
-                            <Nav.Link href="/contact" className="text-white mx-2">
-                                Contact
-                            </Nav.Link>
-                        </Nav>
+                        <p className="mb-0 small">
+                            &copy; {new Date().getFullYear()} Limeli. All rights reserved.
+                        </p>
                     </Col>
                 </Row>
             </Container>

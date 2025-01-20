@@ -1,4 +1,13 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
+import DrinkOriginal from '../assets/limeli-pictures/Drinks/PNG/LimeliOriginal.png';
+import DrinkMint from '../assets/limeli-pictures/Drinks/PNG/LimeliMint.png';
+import DrinkCinnamon from '../assets/limeli-pictures/Drinks/PNG/LimeliCinnamon.png';
+import DrinkMintWithBG from '../assets/limeli-pictures/Drinks/LimeliMintWithBG.png';
+import DrinkMintWithBGLogo from '../assets/limeli-pictures/Test/LimeliMintWithBGLogo.png'
+import Drinks from '../assets/limeli-pictures/Drinks/PNG/Limeli_Drinks.png';
+import Sustainability from '../assets/limeli-pictures/Test/Sustainability.webp';
+import AboutUs from '../assets/limeli-pictures/Test/AboutUs.webp';
+import RegionalIngredients from '../assets/limeli-pictures/Test/RegionalIngredients.webp';
 
 function Home() {
     return (
@@ -14,7 +23,7 @@ function Home() {
                 <Row className="g-4">
                     <Col md={4}>
                         <Card className="h-100 text-center">
-                            <Card.Img variant="top" src="https://via.placeholder.com/300" />
+                            <Card.Img variant="top" src={DrinkOriginal} />
                             <Card.Body>
                                 <Card.Title>Unsere Getränke</Card.Title>
                                 <Card.Text>
@@ -25,7 +34,7 @@ function Home() {
                     </Col>
                     <Col md={4}>
                         <Card className="h-100 text-center">
-                            <Card.Img variant="top" src="https://via.placeholder.com/300" />
+                            <Card.Img variant="top" src={Sustainability} />
                             <Card.Body>
                                 <Card.Title>Nachhaltigkeit</Card.Title>
                                 <Card.Text>
@@ -36,7 +45,7 @@ function Home() {
                     </Col>
                     <Col md={4}>
                         <Card className="h-100 text-center">
-                            <Card.Img variant="top" src="https://via.placeholder.com/300" />
+                            <Card.Img variant="top" src={AboutUs} />
                             <Card.Body>
                                 <Card.Title>Über Uns</Card.Title>
                                 <Card.Text>
@@ -58,7 +67,7 @@ function Home() {
                                 <Row className="align-items-center">
                                     <Col xs={4}>
                                         <Card.Img
-                                            src="https://via.placeholder.com/150"
+                                            src={Drinks}
                                             alt="News"
                                         />
                                     </Col>
@@ -81,7 +90,7 @@ function Home() {
                                     </Col>
                                     <Col xs={4}>
                                         <Card.Img
-                                            src="https://via.placeholder.com/150"
+                                            src={RegionalIngredients}
                                             alt="News"
                                         />
                                     </Col>

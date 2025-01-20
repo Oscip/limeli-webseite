@@ -1,6 +1,6 @@
 /* Global Styles */
 :root {
-  --primary-green: rgba(25, 135, 84, 1); /* Default green */
+  --primary-green: rgba(25, 135, 84, 1);
   --dark-green: #005f39;
   --light-green: #e8f5e9;
   --light-gray: #f8f9fa;
@@ -124,16 +124,6 @@ body {
   color: #343a40;
 }
 
-/* Footer */
-.footer {
-  height: 50vh;
-  background: #343a40;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-}
 
 /* Carousel */
 .carousel {
@@ -366,4 +356,73 @@ body {
 
 .checkout-submit:active {
   transform: translateY(0);
+}
+
+
+/* Footer */
+.footer {
+  background-color: var(--dark-gray);
+  color: white;
+  padding: 2rem 0;
+  font-size: 1.1rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Card Styles */
+.limeli-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding-top: 3rem;
+}
+
+.limeli-h2 {
+  color: var(--primary-green);
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.limeli-h3 {
+  color: #343a40;
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.limeli-p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.limeli-link {
+  color: var(--primary-green);
+  text-decoration: none;
+}
+
+.limeli-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer Links Styling */
+.footer .nav-link {
+  color: white;
+  font-size: 1.1rem;
+  margin: 0 10px;
+}
+
+.footer .nav-link:hover {
+  color: var(--primary-green);
+  text-decoration: underline;
 }
