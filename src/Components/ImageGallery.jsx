@@ -1,16 +1,24 @@
 import { useState } from 'react';
-import Image1 from '../assets/limeli-pictures/Drinks/PNG/LimeliOriginal.png';
-import Image2 from '../assets/limeli-pictures/Drinks/PNG/LimeliMint.png';
-import Image3 from '../assets/limeli-pictures/Drinks/PNG/LimeliCinnamon.png';
-import Image4 from '../assets/limeli-pictures/Drinks/LimeliMintWithBG.png';
+import DrinkOriginal from '../assets/limeli-pictures/Test/LimeliOriginalLogo.png';
+import DrinkMint from '../assets/limeli-pictures/Test/LimeliMintLogo.png';
+import DrinkCinnamon from '../assets/limeli-pictures/Test/LimeliCinnamonLogo.png';
+import Drinks from '../assets/limeli-pictures/Test/LimeliDrinksLogo.png';
+import DrinkMintWithBG from '../assets/limeli-pictures/Test/LimeliMintWithBGLogo.png';
+import Sustainability from '../assets/limeli-pictures/Test/Sustainability.webp';
+import Us from '../assets/limeli-pictures/Test/AboutUs.webp';
+import RegionalIngredients from '../assets/limeli-pictures/Test/RegionalIngredients.webp';
 
 
 
 const images = [
-    Image1,
-    Image2,
-    Image3,
-    Image4
+    DrinkOriginal,
+    DrinkMint,
+    DrinkCinnamon,
+    Drinks,
+    DrinkMintWithBG,
+    Sustainability,
+    Us,
+    RegionalIngredients
 ];
 
 const ImageGallery = () => {

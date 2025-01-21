@@ -100,7 +100,7 @@ export default function Cart() {
                     </MDBCol>
 
                     <MDBCol lg="5">
-                      <MDBCard className="bg-primary text-white rounded-3">
+                      <MDBCard className="text-white rounded-3 bg-success">
                         <MDBCardBody>
                           <div className="d-flex justify-content-between align-items-center mb-4">
                             <MDBTypography tag="h5" className="mb-0">
@@ -125,7 +125,7 @@ export default function Cart() {
                             <p className="mb-2">${total.toFixed(2)}</p>
                           </div>
 
-                          <button onClick={handleCheckoutClick} className="btn btn-info btn-lg w-100">
+                          <button onClick={handleCheckoutClick} className="btn btn-green btn-lg w-100">
                             <div className="d-flex justify-content-between">
                               <span>${total.toFixed(2)}</span>
                               <span>

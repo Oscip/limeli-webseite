@@ -1,10 +1,10 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
 import DrinkOriginal from '../assets/limeli-pictures/Drinks/PNG/LimeliOriginal.png';
 import DrinkMint from '../assets/limeli-pictures/Drinks/PNG/LimeliMint.png';
-import DrinkCinnamon from '../assets/limeli-pictures/Drinks/PNG/LimeliCinnamon.png';
+import DrinkCinnamon from '../assets/limeli-pictures/Test/LimeliCinnamonLogo.png';
 import DrinkMintWithBG from '../assets/limeli-pictures/Drinks/LimeliMintWithBG.png';
-import DrinkMintWithBGLogo from '../assets/limeli-pictures/Test/LimeliMintWithBGLogo.png'
-import Drinks from '../assets/limeli-pictures/Drinks/PNG/Limeli_Drinks.png';
+import DrinkMintWithBGLogo from '../assets/limeli-pictures/Test/LimeliMintWithBGLogo.png';
+import Drinks from '../assets/limeli-pictures/Test/LimeliDrinksLogo.png';
 import Sustainability from '../assets/limeli-pictures/Test/Sustainability.webp';
 import AboutUs from '../assets/limeli-pictures/Test/AboutUs.webp';
 import RegionalIngredients from '../assets/limeli-pictures/Test/RegionalIngredients.webp';
@@ -14,42 +14,46 @@ function Home() {
         <Container fluid className="p-0">
             {/* Hero Section */}
             <div className="bg-success text-white text-center py-5">
-                <h1>Willkommen bei Limeli</h1>
-                <p>Erfrischende Getränke für jede Gelegenheit</p>
+                <h1>Welcome to Limeli</h1>
+                <p>Refreshing beverages crafted for every occasion.</p>
             </div>
 
             {/* Cards Section */}
             <Container className="my-5">
+                <h2 className="text-center">Our Highlights</h2>
+                <p className="text-center mb-4">
+                    Limeli stands for excellence and innovation in the beverage industry. From sourcing regional ingredients to adopting eco-friendly practices, we are setting benchmarks.
+                </p>
                 <Row className="g-4">
                     <Col md={4}>
                         <Card className="h-100 text-center">
-                            <Card.Img variant="top" src={DrinkOriginal} />
+                            <Card.Img variant="top" src={Drinks} alt="Drinks" />
                             <Card.Body>
-                                <Card.Title>Unsere Getränke</Card.Title>
+                                <Card.Title>Our Drinks</Card.Title>
                                 <Card.Text>
-                                    Entdecken Sie unser vielfältiges Sortiment an Getränken.
+                                    Dive into our unique selection of beverages. From the spicy warmth of Limeli Cinnamon to the cool zest of Limeli Mint, we offer something for everyone.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col md={4}>
                         <Card className="h-100 text-center">
-                            <Card.Img variant="top" src={Sustainability} />
+                            <Card.Img variant="top" src={Sustainability} alt="Sustainability" />
                             <Card.Body>
-                                <Card.Title>Nachhaltigkeit</Card.Title>
+                                <Card.Title>Sustainability</Card.Title>
                                 <Card.Text>
-                                    Wir legen Wert auf Nachhaltigkeit und Qualität.
+                                    Our commitment to sustainability is unwavering. We recently partnered with EcoFuture Ltd., a leading firm in renewable packaging, to ensure that every Limeli bottle is 100% recyclable.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col md={4}>
                         <Card className="h-100 text-center">
-                            <Card.Img variant="top" src={AboutUs} />
+                            <Card.Img variant="top" src={AboutUs} alt="About Us" />
                             <Card.Body>
-                                <Card.Title>Über Uns</Card.Title>
+                                <Card.Title>About Us</Card.Title>
                                 <Card.Text>
-                                    Erfahren Sie mehr über die Geschichte von Limeli.
+                                    Limeli is not just a beverage brand; it’s a story of passion. Established five years ago, we have grown into a trusted name with partnerships across Europe.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -59,7 +63,7 @@ function Home() {
 
             {/* News Section */}
             <Container fluid className="bg-light py-5">
-                <h2 className="text-center mb-4">Neuigkeiten</h2>
+                <h2 className="text-center mb-4">Latest News</h2>
                 <Container>
                     <Row className="g-4">
                         <Col md={6}>
@@ -67,14 +71,13 @@ function Home() {
                                 <Row className="align-items-center">
                                     <Col xs={4}>
                                         <Card.Img
-                                            src={Drinks}
-                                            alt="News"
+                                            src={DrinkCinnamon}
+                                            alt="Cinnamon Drink Launch"
                                         />
                                     </Col>
                                     <Col xs={8}>
                                         <Card.Text>
-                                            Neue Geschmacksrichtungen sind da! Probieren Sie unsere
-                                            Specials.
+                                            We’re thrilled to announce our newest drink flavor: Limeli Cinnamon Spiced. A perfect blend of bold cinnamon and natural sweetness.
                                         </Card.Text>
                                     </Col>
                                 </Row>
@@ -85,13 +88,13 @@ function Home() {
                                 <Row className="align-items-center">
                                     <Col xs={8}>
                                         <Card.Text>
-                                            Limeli unterstützt lokale Bauern für beste Zutaten.
+                                            Limeli is proud to secure a 5-year collaboration with Swiss AgriCo, ensuring the highest quality ingredients straight from Swiss farms.
                                         </Card.Text>
                                     </Col>
                                     <Col xs={4}>
                                         <Card.Img
                                             src={RegionalIngredients}
-                                            alt="News"
+                                            alt="Swiss Ingredients"
                                         />
                                     </Col>
                                 </Row>
