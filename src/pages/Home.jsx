@@ -1,10 +1,10 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
-import DrinkOriginal from '../assets/limeli-pictures/Drinks/PNG/LimeliOriginal.png';
-import DrinkMint from '../assets/limeli-pictures/Drinks/PNG/LimeliMint.png';
-import DrinkCinnamon from '../assets/limeli-pictures/Test/LimeliCinnamonLogo.png';
-import DrinkMintWithBG from '../assets/limeli-pictures/Drinks/LimeliMintWithBG.png';
-import DrinkMintWithBGLogo from '../assets/limeli-pictures/Test/LimeliMintWithBGLogo.png';
-import Drinks from '../assets/limeli-pictures/Test/LimeliDrinksLogo.png';
+import DrinkOriginal from '../assets/limeli-pictures/Test/LimeliOriginalLogo.webp';
+import DrinkMint from '../assets/limeli-pictures/Test/LimeliMintWithBGLogo.webp';
+import DrinkCinnamon from '../assets/limeli-pictures/Test/LimeliCinnamonLogo.webp';
+import DrinkMintWithBG from '../assets/limeli-pictures/Test/LimeliMintWithBGLogo.webp';
+import DrinkMintWithBGLogo from '../assets/limeli-pictures/Test/LimeliMintWithBGLogo.webp';
+import Drinks from '../assets/limeli-pictures/Test/LimeliDrinksLogo.webp';
 import Sustainability from '../assets/limeli-pictures/Test/Sustainability.webp';
 import AboutUs from '../assets/limeli-pictures/Test/AboutUs.webp';
 import RegionalIngredients from '../assets/limeli-pictures/Test/RegionalIngredients.webp';

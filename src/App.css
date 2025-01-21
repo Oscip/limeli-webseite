@@ -430,6 +430,15 @@ body {
   text-decoration: underline;
 }
 
+.limeli-card-video {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding-top: 3rem;
+}
+
 /* Footer Links Styling */
 .footer .nav-link {
   color: white;
@@ -471,11 +480,31 @@ select:focus, textarea:focus {
   margin-bottom: 2rem;
 }
 
-/* Responsive Fieldset */
 @media (max-width: 768px) {
   .contact-form .row .col-md-6 {
     margin-bottom: 1.5rem;
   }
+}
+
+.video-player {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+video {
+  transform: rotate(90deg);
+}
+
+.video-spacing {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+
+.navbar-link-color {
+  color: white !important;
 }
 
 

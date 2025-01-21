@@ -1,4 +1,5 @@
 import ImageGallery from '../Components/ImageGallery.jsx';
+import LimeliVideo from "../assets/Videos/LimeliVideo.mp4";
 
 const AboutUs = () => {
     return (
@@ -90,10 +91,17 @@ const AboutUs = () => {
                     </p>
                 </div>
             </section>
+            <section>
+                <div className="limeli-card-video video-spacing">
+                    <video className="video-player" autoPlay loop muted>
+                        <source src={LimeliVideo} type="video/mp4"/>
+                    </video>
+                </div>
+            </section>
 
             {/* Gallery Section */}
             <section className="gallery-section">
-                <h2>Bilder Galerie</h2>
+            <h2>Bilder Galerie</h2>
                 <ImageGallery />
             </section>
         </div>

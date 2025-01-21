@@ -52,16 +52,16 @@ function FooterComponent() {
                 <Row className="justify-content-center mb-4">
                     <Col xs="auto">
                         <Nav className="justify-content-center">
-                            <Nav.Link href="#" className="text-white mx-3 footer-social-icon">
+                            <Nav.Link href="https://www.instagram.com/" className="text-white mx-3 footer-social-icon" aria-label="instagram link">
                                 <FaInstagram size={20} />
                             </Nav.Link>
-                            <Nav.Link href="#" className="text-white mx-3 footer-social-icon">
+                            <Nav.Link href="https://www.tiktok.com/" className="text-white mx-3 footer-social-icon" aria-label="tiktok link">
                                 <FaTiktok size={20} />
                             </Nav.Link>
-                            <Nav.Link href="#" className="text-white mx-3 footer-social-icon">
+                            <Nav.Link href="https://www.linkedin.com/" className="text-white mx-3 footer-social-icon" aria-label="linkedin link">
                                 <FaLinkedin size={20} />
                             </Nav.Link>
-                            <Nav.Link href="#" className="text-white mx-3 footer-social-icon">
+                            <Nav.Link href="https://www.x.com/" className="text-white mx-3 footer-social-icon" aria-label="x link">
                                 <FaTwitter size={20} />
                             </Nav.Link>
                         </Nav>
