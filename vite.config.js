@@ -11,6 +11,9 @@ export default defineConfig({
       threshold: 10240,
     }),
   ],
+  server: {
+    host: '0.0.0.0'
+  },
   build: {
     minify: 'terser',
   },
