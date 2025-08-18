@@ -1,31 +1,56 @@
-# Limeli Webseite
+# Limeli – Fiktive Firmenwebseite
 
-Willkommen im GitHub-Repository von **Limeli**, einer fiktiven Getränkefirma. Dieses Projekt umfasst die Erstellung einer professionellen Webseite für Limeli und bietet eine umfassende Lernerfahrung in der Webentwicklung, von der ersten Planung bis zur finalen Umsetzung.
+**Interaktive Webseite einer fiktiven Getränkefirma („Limeli“) zur Übung und Vertiefung moderner Webentwicklung.**  
 
-## Projektübersicht
+**Projekt im Rahmen von schulischem Selbststudium / Praxisarbeit.**  
+Erstellt von **Oscar Peach**.
 
-Das Hauptziel dieses Projekts ist es, eine voll funktionsfähige Webseite für Limeli zu entwerfen und zu entwickeln. Dabei werden originale Bilder, Videos und Features integriert, um einen realistischen Entwicklungsprozess zu simulieren. Der Prozess umfasst:
+---
 
-- **Konzeption**: Entwicklung einer klaren Idee und eines Projektumfangs.
-- **Wireframes und Storyboards**: Planung des Webseitenlayouts und der Videoinhalte.
-- **Design und Umsetzung**: Aufbau der Webseite mit modernen Webentwicklungstechnologien.
-- **Testen und Optimieren**: Sicherstellen, dass die Webseite effizient funktioniert und den Erwartungen der Nutzer entspricht.
+## 🚀 Live-Demo  
+[**Hier anschauen**](https://oscip.github.io/FirmenWebseite/)
 
-## Funktionen
+---
 
-- **Responsives Design**: Gewährleistet, dass die Webseite auf allen Geräten gut aussieht.
-- **Individuelle Multimedia-Inhalte**: Alle Bilder und Videos sind selbst erstellt, um Originalität zu gewährleisten.
-- **Benutzerfreundliche Navigation**: Beinhaltet eine Navigationsleiste (Navbar) und einen Footer für einfaches Browsen.
-- **Dynamische Inhalte**: Funktionen wie ein Lade-Spinner, Backend-Funktionalitäten für Aufgabenverwaltung und mehr.
+## 🛠️ Technologie-Stack
 
-## Verwendete Technologien
+- **HTML & CSS** für Struktur und Styling  
+- **JavaScript (Vanilla)** für Funktionalität  
+- **Vite** als modernes Build-Tool  
+- **ESLint** zur Code-Qualität und einheitlichem Stil
+- **React** als Framework
 
-- **Frontend**: React.js
-- **Backend**: Eigenentwickelt für Aufgabenverwaltung (Hinzufügen, Bearbeiten, Löschen und Abrufen von Aufgaben).
-- **Design-Tools**: IntelliJ für die Entwicklung, Erstellung eigener Multimedia-Inhalte.
-- **Versionskontrolle**: GitHub für Zusammenarbeit und Versionierung.
+---
 
-## Projektmeilensteine
+## ⚙️ Installation & lokale Nutzung
+
+1. Repository klonen  
+   ```bash
+   git clone https://github.com/Oscip/FirmenWebseite.git
+   cd FirmenWebseite
+2. Abhängigkeiten installieren
+   ```bash
+   npm install
+3. Entwicklungsserver starten
+   ```bash
+   npm run dev
+4. Im Browser öffnen : http://localhost:3000 (oder angezeigte Adresse)
+
+---
+
+## 📖 Inhalte & Aufbau
+
+- **Startseite**: Präsentation der Marke Limeli
+
+- **Produkte**: Übersicht über angebotene Getränke
+
+- **Über uns**: Informationen zur (fiktiven) Unternehmensidee
+
+- **Kontaktseite**: Möglichkeit für Kundenanfragen
+
+---
+
+## 🎯 Projektmeilensteine
 
 ### Planungsphase
 - **Wireframes**: Erstellt ein erstes Designkonzept.
@@ -54,32 +79,11 @@ Das Hauptziel dieses Projekts ist es, eine voll funktionsfähige Webseite für L
 - Optimierung der Backend-Leistung für Skalierbarkeit.
 - Weitere Verbesserung der visuellen Attraktivität und Responsivität der Webseite.
 
-## So führen Sie das Projekt aus
+---
 
-1. Klonen Sie das Repository auf Ihren lokalen Rechner:
-    ```bash
-    git clone https://github.com/yourusername/limeli-website.git
-    ```
-2. Wechseln Sie in das Projektverzeichnis:
-    ```bash
-    cd limeli-website
-    ```
-3. Installieren Sie die Abhängigkeiten:
-    ```bash
-    npm install
-    ```
-4. Starten Sie den Entwicklungsserver:
-    ```bash
-    npm start
-    ```
-5. Greifen Sie auf die Webseite unter `http://localhost:3000` in Ihrem Browser zu.
+## 📄 Lizenz
+Dieses Projekt steht unter der **GPL-3.0 Lizenz**.
+Siehe [LICENSE](./LICENSE) für Details.
 
-## Credits
-
-- **Projektleiter**: Oscar Peach
-- **Inspiration**: Dieses Projekt ist Teil einer Übung, um Workflows in der Webentwicklung zu meistern.
-- **Danksagungen**: Dank an Mentoren, Kollegen und Online-Ressourcen für Anleitung und Feedback.
-
-## Lizenz
-
-Dieses Projekt dient Bildungszwecken und steht in keinem Zusammenhang mit einer echten Organisation. Alle Inhalte, einschließlich Multimedia-Assets, sind fiktiv und speziell für das Limeli-Projekt erstellt. Es steht unter der **GNU General Public License v3.0**.
+## 👥 Autor
+**Oscar Peach**
